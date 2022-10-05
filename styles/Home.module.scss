@@ -18,14 +18,25 @@
 	height: 30px;
 }
 
-.drop {
+.dropdown {
 	display: none;
 	align-items: center;
 }
+// .drop_list {
+// 	// position: absolute;
+
+// 	padding: 1.5rem;
+// 	margin-top: 0.5rem;
+// 	margin-bottom: 0.5rem;
+// 	margin-left: 1rem;
+// 	margin-right: 1rem;
+// 	border-radius: 0.75rem;
+// }
 
 .header__wrapper {
 	width: 100%;
 	height: 56px;
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -33,10 +44,13 @@
 	background: #ffffff 0% 0% no-repeat padding-box;
 	border-bottom: 1px solid #1f343e;
 	opacity: 1;
+	z-index: 100;
+	box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
-
+.brand-name {
+}
 @media (max-width: 600px) {
-	.drop {
+	.dropdown {
 		display: block;
 	}
 }

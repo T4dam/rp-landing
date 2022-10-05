@@ -1,0 +1,40 @@
+body {
+	main {
+		color: red;
+
+		&:hover {
+			color: blue;
+		}
+	}
+}
+
+nav {
+	padding: 0 20px;
+	width: 100%;
+	height: 56px;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+
+		.logo {
+			font-size: 1.5rem;
+			font-weight: 700;
+			color: #1f343e;
+		}
+	}
+}
+
+body > main {
+	color: red;
+}
+
+body > main:hover {
+	color: blue;
+}
+
+.spacer {
+	flex: 1 1 auto;
+}
