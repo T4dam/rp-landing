@@ -1,0 +1,47 @@
+/*------------------
+      Navbar
+------------------*/
+
+.header__list {
+	display: none;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+.header__item {
+	margin-right: 30px;
+}
+
+.hamburger {
+	width: 30px;
+	height: 30px;
+}
+
+.drop {
+	display: none;
+	align-items: center;
+}
+
+.header__wrapper {
+	width: 100%;
+	height: 56px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* UI Properties */
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-bottom: 1px solid #1f343e;
+	opacity: 1;
+}
+
+@media (max-width: 600px) {
+	.drop {
+		display: block;
+	}
+}
+@media (min-width: 600px) {
+	.header__list {
+		display: flex;
+	}
+}
