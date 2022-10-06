@@ -12,7 +12,7 @@ const Tutorial = () => {
 					<Image src={invite_friends} alt="Open mail with a RatePunk letter" />
 				</div>
 
-				<div className="">
+				<div className="tutorial__text">
 					<p className="subtitle">STEP 1</p>
 					<h2>INVITE FRIENDS</h2>
 					<p>Refer friends with your unique referral link.</p>
@@ -23,7 +23,7 @@ const Tutorial = () => {
 					<Image src={collect_coins} alt="Hand holding a coin" />
 				</div>
 
-				<div className="">
+				<div className="tutorial__text reverse">
 					<p className="subtitle">STEP 2</p>
 					<h2>COLLECT COINS</h2>
 					<p>
@@ -37,7 +37,7 @@ const Tutorial = () => {
 					<Image src={get_voucher} alt="Open mail with a RatePunk letter" />
 				</div>
 
-				<div className="">
+				<div className="tutorial__text">
 					<p className="subtitle">STEP 3</p>
 					<h2>GET VOUCHER</h2>
 					<p>

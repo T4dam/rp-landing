@@ -42,13 +42,14 @@ h6 {
 }
 .p {
 	font-size: 16px;
+	margin: 0;
 }
 .container {
 	margin: 0 auto;
 	max-width: 1120px;
 }
 
-@media screen and (min-width: 1032px) {
+@media screen and (min-width: 1130px) {
 	.container--flex {
 		display: flex;
 	}
@@ -170,12 +171,13 @@ h6 {
 		display: block;
 	}
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1120px) {
 	.navigation {
 		height: 56px;
+		margin: 0 auto;
 	}
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1120px) {
 	.brand-name {
 		height: 32px;
 		width: 125.5px;
@@ -244,6 +246,12 @@ CARD
 		margin-bottom: 64px;
 	}
 }
+@media screen and (min-width: 1130px) {
+	.refer__card {
+		margin-left: 0;
+	}
+}
+
 /*-----------------
 FORM
 -----------------*/
@@ -337,6 +345,7 @@ FORM
 	}
 	.refer__card__limits__text {
 		margin-top: 153px;
+		margin-bottom: 0;
 	}
 }
 /*-----------------
@@ -363,6 +372,7 @@ FORM
 	color: #4eb3e3;
 	margin-top: 32px;
 	margin-bottom: 16px;
+	font-size: 20px;
 }
 
 .tutorial__item h2 {
@@ -374,9 +384,40 @@ FORM
 	margin-top: 16px;
 }
 
-@media screen and (min-width: 544px) {
-	.refer__card {
-		max-width: 488px;
-		margin: 0 auto;
+@media screen and (min-width: 1120px) {
+	.tutorial__item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 48px;
+		margin-bottom: 64px;
+	}
+	.tutorial__text {
+		max-width: 256px;
+		text-align: left;
+	}
+
+	.tutorial__item h2 {
+		margin: 16px 0;
+	}
+
+	.tutorial__item p {
+		font-size: 20px;
+		margin: 0;
+	}
+
+	.tutorial__container {
+		padding: 48px 0px;
+	}
+	.tutorial__item:nth-child(2) {
+		flex-direction: row-reverse;
+	}
+	.tutorial__item:nth-child(3) {
+		margin-bottom: 0;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.tutorial__container {
+		margin-right: 0;
 	}
 }
