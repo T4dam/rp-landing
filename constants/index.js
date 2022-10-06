@@ -39,67 +39,75 @@ export const tutorial = [
 	},
 ];
 
-export const footerMenu = [
+export const footerContacts = [
 	{
-		category: 'Company',
+		type: 'contact_block',
+		title: 'Contact',
 		links: [
 			{
-				id: 'chrome',
-				title: 'Chrome Extension',
-			},
-			{
-				id: 'price',
-				title: 'Price Comparison',
-			},
-			{
-				id: 'blog',
-				title: 'Blog',
+				title: 'hi@ratepunk.com',
+				href: 'mailto:hi@ratepunk.com',
+				icon: '/public/images/instagram.svg',
 			},
 		],
 	},
-
 	{
-		category: 'Company 2',
+		type: 'social_block',
+		title: 'Social',
 		links: [
 			{
-				id: 'chrome',
+				title: 'instagram',
+				icon: '/public/images/instagram.svg',
+				href: '#',
+			},
+			{
+				title: 'facebook',
+				icon: '/public/images/facebook.svg',
+				href: '#',
+			},
+			{
+				title: 'linkedin',
+				icon: '/public/images/linkedin.svg',
+				href: '#',
+			},
+			{
+				title: 'twitter',
+				icon: '/public/images/twitter.svg',
+				href: '#',
+			},
+			{
+				title: 'tiktok',
+				icon: '/public/images/tiktok.svg',
+				href: '#',
+			},
+		],
+	},
+];
+
+export const footerLinks = [
+	{
+		type: 'links_block',
+		title: 'Quick Links',
+		links: [
+			{
+				title: 'Price Comparison',
+				href: '/price',
+			},
+			{
 				title: 'Chrome Extension',
+				href: '#',
 			},
 			{
-				id: 'price',
-				title: 'Price Comparison',
+				title: 'How It Works',
+				href: '#',
 			},
 			{
-				id: 'blog',
-				title: 'Blog',
-			},
-
-			{
-				id: 'price',
-				title: 'Price Comparison',
+				title: 'Ratepunk Blog',
+				href: '#',
 			},
 			{
-				id: 'blog',
-				title: 'Blog',
-			},
-
-			{
-				id: 'price',
-				title: 'Price Comparison',
-			},
-			{
-				id: 'blog',
-				title: 'Blog',
-				url: '#',
-			},
-
-			{
-				id: 'price',
-				title: 'Price Comparison',
-			},
-			{
-				id: 'blog',
-				title: 'Blog',
+				title: 'Privacy Policy',
+				href: '#',
 			},
 		],
 	},
