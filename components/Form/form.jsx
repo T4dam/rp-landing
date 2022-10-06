@@ -13,7 +13,7 @@ const validationSchema = yup.object({
 
 const Form = () => {
 	const [copyText, setCopyText] = useState('https://ratepunk.com/referral');
-	const [show, setShow] = useState(true);
+	const [show, setShow] = useState(false);
 
 	const handleCopy = () => {
 		navigator.clipboard
