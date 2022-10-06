@@ -38,3 +38,69 @@ export const tutorial = [
 		alt: 'Voucher gift image',
 	},
 ];
+
+export const footerMenu = [
+	{
+		category: 'Company',
+		links: [
+			{
+				id: 'chrome',
+				title: 'Chrome Extension',
+			},
+			{
+				id: 'price',
+				title: 'Price Comparison',
+			},
+			{
+				id: 'blog',
+				title: 'Blog',
+			},
+		],
+	},
+
+	{
+		category: 'Company 2',
+		links: [
+			{
+				id: 'chrome',
+				title: 'Chrome Extension',
+			},
+			{
+				id: 'price',
+				title: 'Price Comparison',
+			},
+			{
+				id: 'blog',
+				title: 'Blog',
+			},
+
+			{
+				id: 'price',
+				title: 'Price Comparison',
+			},
+			{
+				id: 'blog',
+				title: 'Blog',
+			},
+
+			{
+				id: 'price',
+				title: 'Price Comparison',
+			},
+			{
+				id: 'blog',
+				title: 'Blog',
+				url: '#',
+			},
+
+			{
+				id: 'price',
+				title: 'Price Comparison',
+			},
+			{
+				id: 'blog',
+				title: 'Blog',
+			},
+		],
+	},
+];

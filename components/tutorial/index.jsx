@@ -1,7 +1,4 @@
 import React from 'react';
-import invite_friends from '../../public/images/invite_friends.svg';
-import collect_coins from '../../public/images/collect_coins.svg';
-import get_voucher from '../../public/images/get_voucher.svg';
 import Image from 'next/image';
 import { tutorial } from '../../constants';
 

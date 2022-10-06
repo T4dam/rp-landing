@@ -6,6 +6,8 @@ import Form from '../components/Form/form.jsx';
 import Navbar from '../components/Navbar';
 import Card from '../components/Form/card';
 import Tutorial from '../components/tutorial';
+import AppSection from '../components/AppSection';
+import Footer from '../components/Footer';
 
 export default function Home() {
 	return (
@@ -17,16 +19,24 @@ export default function Home() {
 			</Head>
 
 			<Navbar />
-			<main className="bg">
-				<section className="container container--flex">
-					<Card />
-					<article>
-						<Tutorial />
-					</article>
+			<main>
+				<section className="bg-yellow">
+					<div className="container section container--flex">
+						<Card />
+						<article>
+							<Tutorial />
+						</article>
+					</div>
+				</section>
+
+				<section className="bg-grey">
+					<div className="container">
+						<AppSection />
+					</div>
 				</section>
 			</main>
 
-			<footer className={styles.footer}></footer>
+			<Footer />
 		</div>
 	);
 }

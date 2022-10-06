@@ -40,6 +40,12 @@ h5,
 h6 {
 	font-family: 'Caveat Brush', cursive;
 }
+
+.font-noto-sans {
+	font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
 .p {
 	font-size: 16px;
 	margin: 0;
@@ -48,6 +54,22 @@ h6 {
 	margin: 0 auto;
 	max-width: 1120px;
 }
+.navigation__container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 1120px;
+	margin: 0 auto;
+}
+/* @media screen and (max-width: 620px) {
+	.navigation__container {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		max-width: 1120px;
+		margin: 0 auto;
+	}
+} */
 
 @media screen and (min-width: 1130px) {
 	.container--flex {
@@ -55,6 +77,56 @@ h6 {
 	}
 }
 
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 128px;
+}
+
+.footer__about,
+.footer__links {
+	width: 100%;
+}
+
+.footer__about {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.footer__about .footer__text {
+	margin: 32px 0;
+}
+
+.footer__about .footer__copy {
+	color: #6d7a80;
+}
+
+.footer__links {
+	display: flex;
+	gap: 32px;
+	justify-content: space-between;
+}
+
+.footer__links h2 {
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0;
+	letter-spacing: 1.6px;
+	color: #1f343e;
+	text-transform: uppercase;
+}
+
+.footer__links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer__links__item :nth-child(1) {
+}
 /*
 .hidden {
 	display: none;
@@ -93,7 +165,7 @@ h6 {
 }
 
 .brand-name {
-	margin-left: 1rem;
+	margin-left: 16px;
 }
 .navigation-menu {
 	margin-left: auto;
@@ -188,12 +260,24 @@ h6 {
 /*-----------------
 
 -----------------*/
-.bg {
+.bg-yellow {
 	background-color: #f8cc5d;
-	width: 100vw;
+}
+.bg-grey {
+	background-color: #45565e;
+}
+.section {
+	width: 100%;
 	height: 100%;
 	padding-top: 32px;
 	padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+	.section {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
 }
 
 /*-----------------
@@ -419,5 +503,76 @@ FORM
 @media screen and (min-width: 1200px) {
 	.tutorial__container {
 		margin-right: 0;
+	}
+}
+
+/*-----------------
+  Apps
+-----------------*/
+.apps__container {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	margin: 0 auto;
+
+	/* background-color: aqua; */
+}
+.app_block {
+	padding: 32px 0;
+	margin: 0 32px;
+	/* width: auto; */
+	background-color: #4eb3e3;
+}
+.app_box {
+	display: flex;
+	align-items: center;
+	border: 1px solid #1f343e;
+	border-radius: 16px;
+	padding: 16px 24px;
+	margin-bottom: 16px;
+	margin: 0 auto;
+}
+
+.app_box p {
+	margin: 0;
+	font-size: 16px;
+}
+.app__box__text {
+	margin-left: 20px;
+}
+.app_box .bold {
+	font-weight: bold;
+	font-size: 20px;
+	/* margin-bottom: -10px; */
+}
+.app_box_rating {
+	font-size: 16px;
+	text-align: center;
+}
+
+@media screen and (min-width: 544px) {
+	.app_block {
+		/* width: 100%; */
+		/* max-width: 488px; */
+		margin: 0 32px;
+	}
+	.app_box {
+		padding: 16px 24px;
+		max-width: 488px;
+		margin: 0 auto;
+		margin-bottom: 16px;
+	}
+}
+
+@media screen and (min-width: 1120px) {
+	.app_block {
+		display: flex;
+	}
+	.app__box {
+		/* margin-right: 16px; */
+		width: 312px;
+		margin: 0;
+	}
+	.apps__container {
 	}
 }
