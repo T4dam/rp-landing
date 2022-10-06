@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.scss';
 
 import Form from '../components/Form/form.jsx';
 import Navbar from '../components/Navbar';
+import Card from '../components/Form/card';
+import Tutorial from '../components/tutorial';
 
 export default function Home() {
 	return (
@@ -16,7 +18,12 @@ export default function Home() {
 
 			<Navbar />
 			<main>
-				<section></section>
+				<section className="bg">
+					<Card />
+					<article>
+						<Tutorial />
+					</article>
+				</section>
 			</main>
 
 			<footer className={styles.footer}></footer>

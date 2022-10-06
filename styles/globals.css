@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 html,
 body {
@@ -25,6 +26,10 @@ a {
 		color: white;
 		background: black;
 	}
+}
+h1 {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 3rem;
 }
 /* 
 .flex {
@@ -157,4 +162,127 @@ a {
 
 		margin-left: 16px;
 	}
+}
+/*-----------------
+
+-----------------*/
+.bg {
+	background-color: #f8cc5d;
+	width: 100vw;
+	height: 100%;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+/*-----------------
+CARD
+-----------------*/
+/* .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+} */
+
+.refer__card__title {
+	text-align: left;
+	margin: 0 auto;
+	font-size: 32px;
+	margin-bottom: 24px;
+}
+
+.refer__card__p {
+	text-align: left;
+	margin: 0 auto;
+	font-size: 16px;
+	margin-bottom: 24px;
+}
+
+.refer__card {
+	width: auto;
+	height: auto;
+	background-color: #f8f4f9;
+	border-radius: 16px;
+	border: 1px solid #1f343e;
+	margin: 0 auto;
+	margin: 0 16px;
+	padding: 32px 16px;
+}
+
+/*-----------------
+FORM
+-----------------*/
+
+.form__container {
+	width: 100%;
+
+	margin: 0 auto;
+}
+
+.form__input {
+	width: 100%;
+	height: 56px;
+	border: 1px solid #1f343e;
+	border-radius: 8px;
+	padding: 0 1.6rem;
+}
+
+#icon_mail {
+	background-image: url('../public/images/email_icon.svg');
+	background-repeat: no-repeat;
+	background-position: 16px 18px;
+}
+
+.form__input {
+	padding-left: 48px;
+	font-size: 16px;
+}
+.form__button {
+	width: 100%;
+	height: 56px;
+	border: 1px solid #1f343e;
+	border-radius: 8px;
+	padding: 0 1.6rem;
+
+	background-color: #4eb3e3;
+	color: #ffffff;
+	font-size: 16px;
+	margin: 16px auto;
+}
+.from__errors {
+	color: red;
+	font-size: 12px;
+	margin-bottom: 7px;
+}
+.form__success__container {
+	font-size: 16px;
+	margin-bottom: 17px;
+	display: flex;
+	align-items: center;
+}
+.form__success__icon {
+	/* display: inline-block; */
+	height: 32px;
+	width: 32px;
+	margin-right: 16px;
+}
+.form__success__message {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.refer__card__limits__text {
+	margin-top: 71px;
+	color: #6d7a80;
+	font-size: 16px;
+}
+
+.form__input--referral {
+	width: 100%;
+	height: 56px;
+	border: 1px solid #1f343e;
+	border-radius: 8px;
+	padding-left: 16px;
+	font-size: 16px;
 }
