@@ -233,6 +233,7 @@ CARD
 		max-width: 544px;
 		margin: 0 auto;
 		padding: 64px;
+		border-radius: 16px;
 	}
 	.refer__card__title {
 		font-size: 48px;
@@ -249,7 +250,6 @@ FORM
 
 .form__container {
 	width: 100%;
-
 	margin: 0 auto;
 }
 
@@ -259,6 +259,8 @@ FORM
 	border: 1px solid #1f343e;
 	border-radius: 8px;
 	padding: 0 1.6rem;
+	font-size: 16px;
+	padding-left: 48px;
 }
 
 #icon_mail {
@@ -267,10 +269,6 @@ FORM
 	background-position: 16px 18px;
 }
 
-.form__input {
-	padding-left: 48px;
-	font-size: 16px;
-}
 .form__button {
 	width: 100%;
 	height: 56px;
@@ -320,7 +318,27 @@ FORM
 	padding-left: 16px;
 	font-size: 16px;
 }
-
+@media screen and (min-width: 544px) {
+	.form__input {
+		height: 64px;
+		border-radius: 8px;
+		padding: 0 1.6rem;
+		font-size: 20px;
+		padding-left: 60px;
+	}
+	#icon_mail {
+		/* background-image: url('../public/images/email_icon.svg');
+		background-repeat: no-repeat; */
+		background-position: 19px 20px;
+	}
+	.form__button {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.refer__card__limits__text {
+		margin-top: 153px;
+	}
+}
 /*-----------------
   Tutorial
 -----------------*/
