@@ -190,7 +190,9 @@ h6 {
 	.footer__links__container h2 {
 		font-size: 16px;
 	}
-
+	.footer__contacts {
+		gap: 37px;
+	}
 	.footer__container,
 	.footer__links__container {
 		flex-direction: column;
@@ -534,7 +536,8 @@ FORM
 	width: auto;
 	height: auto;
 	margin: 0 16px;
-	padding: 48px 16px;
+	padding: 0 16px;
+	padding-top: 49px;
 	max-width: 488px;
 	margin: 0 auto;
 
@@ -561,7 +564,7 @@ FORM
 	margin-top: 16px;
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1130px) {
 	.tutorial__item {
 		display: flex;
 		align-items: center;
@@ -616,6 +619,10 @@ FORM
 	margin: 0 32px;
 	width: 0 auto;
 }
+.app_block a:hover {
+	color: #fff;
+}
+
 .app_box {
 	display: flex;
 	align-items: center;
@@ -663,7 +670,7 @@ FORM
 	}
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1130px) {
 	.app_block {
 		display: flex;
 		align-items: center;
