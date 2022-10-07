@@ -9,7 +9,15 @@ const Tutorial = () => {
 				return (
 					<div key={item.id} className="tutorial__item">
 						<div>
-							<Image src={item.img} width={144} height={144} alt={item.alt} />
+							<Image
+								src={item.img}
+								width={144}
+								height={144}
+								alt={item.alt}
+								loading={'lazy'}
+								placeholder="blur"
+								blurDataURL={item.img}
+							/>
 						</div>
 
 						<div className="tutorial__text">
