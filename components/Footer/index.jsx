@@ -63,7 +63,7 @@ const Footer = () => {
 										</div>
 									)}
 									{item.type === 'contact_block' && (
-										<ul className={item.type === 'social_block' ? '' : ''}>
+										<ul>
 											{item.links.map((link, index) => {
 												return (
 													<li
