@@ -606,7 +606,7 @@ FORM
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	font-family: 'Gadugi', sans-serif;
+
 	color: #fff;
 
 	/* background-color: aqua; */
@@ -681,7 +681,11 @@ FORM
 		margin-right: 0px;
 	}
 	.app_box_rating {
+		margin-top: 0;
 		margin-left: 32px;
 		font-size: 20px;
+	}
+	.app_box .bold {
+		font-family: 'Gadugi', sans-serif;
 	}
 }
