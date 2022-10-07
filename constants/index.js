@@ -57,27 +57,27 @@ export const footerContacts = [
 		links: [
 			{
 				title: 'instagram',
-				icon: '/public/images/instagram.svg',
+				icon: '/images/instagram.svg',
 				href: '#',
 			},
 			{
 				title: 'facebook',
-				icon: '/public/images/facebook.svg',
+				icon: '/images/facebook.svg',
 				href: '#',
 			},
 			{
 				title: 'linkedin',
-				icon: '/public/images/linkedin.svg',
+				icon: '/images/linkedin.svg',
 				href: '#',
 			},
 			{
 				title: 'twitter',
-				icon: '/public/images/twitter.svg',
+				icon: '/images/twitter.svg',
 				href: '#',
 			},
 			{
 				title: 'tiktok',
-				icon: '/public/images/tiktok.svg',
+				icon: '/images/tiktok.svg',
 				href: '#',
 			},
 		],
@@ -91,7 +91,7 @@ export const footerLinks = [
 		links: [
 			{
 				title: 'Price Comparison',
-				href: '/price',
+				href: '#',
 			},
 			{
 				title: 'Chrome Extension',

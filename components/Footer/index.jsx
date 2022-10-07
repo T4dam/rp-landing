@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Footer = () => {
 	return (
-		<footer>
+		<footer className="bg-white">
 			<div className="container section footer__container">
 				<div className="footer__about">
 					<div>
@@ -27,7 +27,7 @@ const Footer = () => {
 						{footerLinks.map((item, index) => {
 							return (
 								<div key={item.title + index} className="footer__links__item">
-									<h2 className="font-noto-sans">{item.title}</h2>
+									<h2 className="footer__links__header">{item.title}</h2>
 									<ul>
 										{item.links.map((link, index) => {
 											return (
@@ -47,7 +47,7 @@ const Footer = () => {
 						{footerContacts.map((item, index) => {
 							return (
 								<div key={item.title + index}>
-									<h2 className="font-noto-sans">{item.title}</h2>
+									<h2 className="footer__links__header">{item.title}</h2>
 
 									{item.type === 'social_block' && (
 										<div className="social__icons">
@@ -55,11 +55,7 @@ const Footer = () => {
 												return (
 													<Link key={link.title + index} href={link.href}>
 														<a className="social-icon">
-															<Image
-																src={'/images/instagram.svg'}
-																width={16}
-																height={16}
-															/>
+															<Image src={link.icon} width={16} height={16} />
 														</a>
 													</Link>
 												);
@@ -70,9 +66,17 @@ const Footer = () => {
 										<ul className={item.type === 'social_block' ? '' : ''}>
 											{item.links.map((link, index) => {
 												return (
-													<li key={link.title + index}>
+													<li
+														key={link.title + index}
+														className="flex-line-center "
+													>
+														<Image
+															src={'/images/mail.svg'}
+															width={16}
+															height={16}
+														/>
 														<Link href={link.href}>
-															<a>{link.title}</a>
+															<a style={{ marginLeft: '16px' }}>{link.title}</a>
 														</Link>
 													</li>
 												);
