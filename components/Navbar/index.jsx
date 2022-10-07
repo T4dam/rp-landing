@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<nav className="navigation">
 			<div className="navigation__container">
-				<div>
+				<div className="logo__container">
 					<Image
 						src={logo}
 						width={125}
@@ -18,9 +18,7 @@ const Navbar = () => {
 						alt="logo"
 					/>
 				</div>
-				{/* <div src={logo} className="brand-name" alt="logo">
-                    LOGO
-                </div> */}
+
 				<button
 					className="hamburger"
 					onClick={() => {
@@ -79,56 +77,6 @@ const Navbar = () => {
 				</div>
 			</div>
 		</nav>
-		// <nav className={styles.header__wrapper}>
-		// 	<h1 className="brand-name">LOGO</h1>
-		// 	{/* <Image src={logo} alt="logo" width={100} height={100} /> */}
-		// 	<ul className={styles.header__list}>
-		// 		{navLinks.map((item, index) => (
-		// 			<li
-		// 				key={item.id}
-		// 				className={`${
-		// 					index === navLinks.length - 1 ? '' : styles.header__item
-		// 				}`}
-		// 			>
-		// 				<a href={`#${item.id}`}>{item.title}</a>
-		// 			</li>
-		// 		))}
-		// 	</ul>
-
-		// 	<button onClick={() => setToggle((prev) => !prev)} className="hamburger">
-		// 		<svg
-		// 			xmlns="http://www.w3.org/2000/svg"
-		// 			fill="none"
-		// 			viewBox="0 0 24 24"
-		// 			strokeWidth={1.5}
-		// 			stroke="currentColor"
-		// 			className="w-6 h-6"
-		// 		>
-		// 			<path
-		// 				strokeLinecap="round"
-		// 				strokeLinejoin="round"
-		// 				d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-		// 			/>
-		// 		</svg>
-		// 	</button>
-
-		// 	<div className={styles.dropdown}>
-		// 		<div className={`${toggle ? 'flex' : 'hidden'}`}>
-		// 			<ul className="flex flex-col list-none justify-end items-center flex-1">
-		// 				{navLinks.map((item, index) => (
-		// 					<li
-		// 						key={item.id}
-		// 						className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
-		// 							index === navLinks.length - 1 ? 'mb-0' : 'mb-4'
-		// 						}`}
-		// 					>
-		// 						<a href={`#${item.id}`}>{item.title}</a>
-		// 					</li>
-		// 				))}
-		// 			</ul>
-		// 		</div>
-		// 	</div>
-		// </nav>
 	);
 };
 

@@ -329,17 +329,32 @@ h6 {
 		background-color: #ffff;
 	}
 }
+.logo__container {
+	padding-left: 16px;
+}
 @media screen and (max-width: 768px) {
 	.navigation-menu.expanded ul {
 		display: block;
 	}
 }
+
 @media screen and (max-width: 1120px) {
 	.navigation {
 		height: 56px;
 		margin: 0 auto;
 	}
 }
+@media screen and (min-width: 768px) {
+	.navigation-menu li a {
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 1120px) {
+	.logo__container {
+		padding-left: 0;
+	}
+}
+
 @media screen and (max-width: 1120px) {
 	.brand-name {
 		height: 32px;
