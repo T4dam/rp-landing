@@ -256,9 +256,6 @@ h6 {
 	transform: translateY(-50%);
 	display: none;
 }
-.hamburger:hover {
-	/* background-color: #2642af; */
-}
 
 @media screen and (max-width: 768px) {
 	.hamburger {
@@ -273,7 +270,6 @@ h6 {
 		left: 0;
 		flex-direction: column;
 		width: 100%;
-		// height: 178px;
 		background-color: white;
 		border-bottom: 1px solid black;
 		display: none;
@@ -285,7 +281,6 @@ h6 {
 	}
 	.navigation-menu li:nth-child(3) {
 		padding-bottom: 19px;
-		// background-color: red;
 	}
 	.navigation-menu li a {
 		width: 100%;
@@ -334,7 +329,7 @@ h6 {
 	}
 }
 /*-----------------
-
+     SECTION
 -----------------*/
 .bg-yellow {
 	background-color: #f8cc5d;
@@ -362,12 +357,6 @@ h6 {
 /*-----------------
 CARD
 -----------------*/
-/* .container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-} */
 
 .refer__card__title {
 	text-align: left;
@@ -464,7 +453,6 @@ FORM
 	align-items: center;
 }
 .form__success__icon {
-	/* display: inline-block; */
 	height: 32px;
 	width: 32px;
 	margin-right: 16px;
@@ -525,8 +513,6 @@ FORM
 	padding-top: 49px;
 	max-width: 488px;
 	margin: 0 auto;
-
-	/* background-color: aqua; */
 }
 .tutorial__item {
 	text-align: center;
@@ -596,8 +582,6 @@ FORM
 	margin: 0 auto;
 
 	color: #fff;
-
-	/* background-color: aqua; */
 }
 .app_block {
 	padding: 32px 0;
@@ -624,8 +608,6 @@ FORM
 	font-size: 16px;
 }
 .app_box:nth-child(2) {
-	/* margin-right: 16px; */
-
 	margin-bottom: 24px;
 }
 .app__box__text {
@@ -634,7 +616,6 @@ FORM
 .app_box .bold {
 	font-weight: bold;
 	font-size: 20px;
-	/* margin-bottom: -10px; */
 }
 .app_box_rating {
 	font-size: 16px;
@@ -643,10 +624,6 @@ FORM
 }
 
 @media screen and (min-width: 544px) {
-	.app_block {
-		/* width: 100%; */
-		/* max-width: 488px; */
-	}
 	.app_box {
 		padding: 16px 24px;
 		max-width: 488px;
@@ -662,13 +639,11 @@ FORM
 		margin: 0;
 	}
 	.app_box {
-		/* margin-right: 16px; */
 		width: 312px;
 		margin: 0;
 		margin-right: 16px;
 	}
 	.app_box:nth-child(2) {
-		/* margin-right: 16px; */
 		margin-bottom: 0px;
 		margin-right: 0px;
 	}
