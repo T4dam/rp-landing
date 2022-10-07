@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
-import Image from 'next/image';
-import mail from '../../public/images/mail.svg';
 
 const validationSchema = yup.object({
 	email: yup

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styles from '/styles/Home.module.scss';
 import { navLinks } from '../../constants';
 import Image from 'next/image';
 import logo from './../../public/logo.svg';
